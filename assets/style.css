@@ -1,0 +1,148 @@
+:root {
+  --red-bg: #f72210;
+  --gray-bg: #f4f5f6;
+}
+
+
+
+/* First declarations to stablish a layout */
+
+/* *For mobile */
+body {
+    background-color: var(--gray-bg);
+}
+
+
+.middle {
+    height: 50px;
+    position: sticky;
+    top: 0;
+    background-color: var(--red-bg);
+}
+
+.top-story {
+    height: 404px;    /*  delete */
+    background: pink;
+}
+.debate{
+    height: 270px;    /*  delete */
+    background-color: yellow;
+}
+
+.opinion {
+    background-color: green;
+}
+
+.opinion-item {
+    height: 80px;    /*  delete */
+    border: 2px solid black; /*  delete */
+}
+
+.empty {
+    height: 23px;    /*  delete */   
+}
+
+.more-stories-item {
+    height: 131px;
+    background-color: blueviolet;
+    border: 2px solid black; /*  delete */
+}
+
+.heroes-culture-item {
+    height: 479px; /*  delete */ 
+    background-color: rgb(5, 49, 47);
+    border: 2px solid black; /*  delete */
+    margin: 0px;
+}
+
+.free-sign {
+    height: 157px; /*  delete */ 
+    width: 293px;
+    background-color: rgb(78, 14, 14);
+    border: 2px solid black; /*  delete */
+}
+
+.trump-xi-war {
+    height: 559px; /*  delete */ 
+    background-color: rgb(107, 101, 17);
+}
+
+.magazine-item {
+    height: 360px; /*  delete */ 
+    background-color: rgb(15, 14, 78);
+    border: 2px solid black; /*  delete */
+}
+
+.editors-pick-item {
+    height: 432px; /*  delete */ 
+    background-color: rgb(250, 113, 1);
+    border: 2px solid black; /*  delete */
+}
+
+.main-figure {
+    height: 432px; /*  delete */ 
+    background-color: rgb(51, 250, 1);
+    border: 2px solid black; /*  delete */
+}
+
+.secondary-articles {
+    height: 338px; /*  delete */ 
+    background-color: rgb(72, 17, 122);
+    border: 2px solid black; /*  delete */
+}
+
+.subscribe {
+    height: 460px; /*  delete */ 
+    background-color: rgb(23, 211, 201);
+    border: 2px solid black; /*  delete */
+}
+
+.newsletter {
+    height: 300px; /*  delete */ 
+    background-color: rgb(255, 230, 0);
+}
+
+footer {
+    height: 300px; /*  delete */ 
+}
+
+/* ......................... */
+
+.middle-nav-logo {
+    width:148px;
+    height: 26px;
+}
+
+.subscribe-button::after {
+    width: 8px;
+    height: 14px;
+    content: "";
+    background-image: url('./icon-arrow-right-red.svg');
+    background-size: cover;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+@media (min-width: 768px) { 
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+
+
+
+
+
+
+
+/* *For Tablets */
+
+/* *For larger screen */
+
+
+
+
+/* ......................................... */

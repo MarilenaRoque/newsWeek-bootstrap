@@ -1,162 +1,389 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./assets/images/title-icon.png">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="shortcut icon" href="./assets/images/title-icon.png" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- My Style CSS -->
+    <link rel="stylesheet" href="./assets/styles/style.css" />
 
     <title>News Week</title>
   </head>
   <body>
-    
     <header>
-        <nav class="middle container-fluid"></nav>
+      <!-- Middle Navbar -->
+      <nav
+        class="middle sticky-top d-flex justify-content-between align-items-center"
+      >
+        <div class="middle-left">
+          <a href="https://www.newsweek.com/"
+            ><img
+              src="./assets/images/news-week-logo.png"
+              alt="News Week Logo"
+              class="middle-nav-logo"
+          /></a>
+        </div>
+        <div class="middle-right d-flex">
+          <button
+            type="button"
+            class="text-light login-button p-0 border-0 fs-18 font-weight-bold"
+            onclick="location.href='#';"
+          >
+            LOGIN
+          </button>
+          <button
+            type="button"
+            class="subscribe-button ml-2 fs-18 border-0 font-weight-bold"
+            onclick="location.href='#';"
+          >
+            SUBSCRIBE
+          </button>
+          <span class="hamburguer d-inline-block">
+            <span class="line line-border d-block ml-auto mr-1"></span>
+            <span class="line mt-1 line-middle d-block ml-auto mr-1"></span>
+            <span class="line mt-1 line-border d-block ml-auto mr-1"></span>
+          </span>
+        </div>
+      </nav>
     </header>
 
-    <main class="fluid-container">
-        <section class="top-story fluid-container"></section>
-        <section class="feat-stories fluid-container">
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
-        <section class="debate">
-        </section>
-        <section class="opinion">
-            <div class="opinion-item"></div>
-            <div class="opinion-item"></div>
-            <div class="opinion-item"></div>
-            <div class="opinion-item"></div>
-            <div class="opinion-item"></div>
-            <div class="opinion-item"></div>
-        </section>
+    <main>
+      <section class="top-story main-divisions fluid-container bg-white">
+        <h6 class="font-weight-bold">TOP STORY</h6>
+        <div class="news-picture position-relative">
+          <a href="#"
+            ><img
+              class="w-100"
+              src="./assets/images/job-loss-numbers.jpg"
+              alt="Job loss article"
+          /></a>
+          <div class="absolute-img d-inline-block position-absolute">
+            <a class="font-weight-bold absolute-text" href="#">U.S.</a>
+          </div>
+        </div>
+        <a href="#"
+          ><h2 class="font-weight-bold m-0">
+            U.S. Jobless Claims Near 40 Million as All 50 States Start Reopening
+          </h2></a
+        >
+        <p class="m-0 summary-text">
+          New data published by the Department of Labour on Thursday revealed
+          that 2.4 million workers filed jobless claims in the week ending May
+          16.
+        </p>
+      </section>
 
-        <div class="empty bg-white"></div>
+      <section class="feat-stories main-divisions fluid-container bg-white">
+        <h6 class="font-weight-bold">FEATURED STORIES</h6>
 
-        <section class="more-stories">
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-            <article class="more-stories-item"></article>
-        </section>
-
-        <section class="heroes-culture">
-            <div class="heroes">
-                <figure class="heroes-culture-item"></figure>
-                <figure class="heroes-culture-item"></figure>
-                <figure class="heroes-culture-item"></figure>
+        <article class="mb-4">
+          <div class="news-picture position-relative">
+            <a href="#"
+              ><img
+                class="w-100"
+                src="./assets/images/joe-biden-ukraine-petro-poroshenko-russia-hunter.jpg"
+                alt="Job loss article"
+            /></a>
+            <div class="absolute-img d-inline-block position-absolute">
+              <a class="font-weight-bold absolute-text" href="#">WORLD</a>
             </div>
-            <div class="culture">
-                <figure class="heroes-culture-item"></figure>
-                <figure class="heroes-culture-item"></figure>
-                <figure class="heroes-culture-item"></figure>
+          </div>
+          <a href="#"
+            ><h3 class="font-weight-bold m-0">
+              Biden Leaked Ukraine Calls Were Released by Russia: Ex-President
+            </h3></a
+          >
+          <p class="m-0 summary-text">
+            Former President Petro Poroshenko rejected the recordings as
+            "fabrication" and a Kremlin attempt to undermine bipartisan U.S.
+            support for Ukraine.
+          </p>
+        </article>
+
+        <article class="mb-4">
+          <div class="news-picture position-relative">
+            <a href="#"
+              ><img
+                class="w-100"
+                src="./assets/images/tyson-foods-chicken-facility.jpg"
+                alt="Job loss article"
+            /></a>
+            <div class="absolute-img d-inline-block position-absolute">
+              <a class="font-weight-bold absolute-text" href="#">U.S.</a>
             </div>
-        </section>
+          </div>
+          <a href="#"
+            ><h3 class="font-weight-bold m-0">
+              One in Four Tyson Foods Staff at North Carolina Plant Get COVID-19
+            </h3></a
+          >
+          <p class="m-0 summary-text">
+            The company said most of the 570 who tested positive at its facility
+            in Wilkesboro were asymptomatic.
+          </p>
+        </article>
 
-        <div class="free-sign container center-block"></div>
+        <article class="mb-4">
+          <div class="news-picture position-relative">
+            <a href="#"
+              ><img
+                class="w-100"
+                src="./assets/images/lori-loughlin-prison-guilty-college-admission-scandal.jpg"
+                alt="Job loss article"
+            /></a>
+            <div class="absolute-img d-inline-block position-absolute">
+              <a class="font-weight-bold absolute-text" href="#">U.S.</a>
+            </div>
+          </div>
+          <a href="#"
+            ><h3 class="font-weight-bold m-0">
+              Will Lori Loughlin Go to Prison?
+            </h3></a
+          >
+          <p class="m-0 summary-text">
+            In exchange for pleading guilty to one charge against them,
+            prosecutors have agreed to drop the other two they were facing for
+            their role in operation Varsity Blues.
+          </p>
+        </article>
 
-    </main>
+        <article class="mb-4">
+          <div class="news-picture position-relative">
+            <a href="#"
+              ><img
+                class="w-100"
+                src="./assets/images/tsai-ing-wen-china-taiwan-us-weapons-sales.jpg"
+                alt="Job loss article"
+            /></a>
+            <div class="absolute-img d-inline-block position-absolute">
+              <a class="font-weight-bold absolute-text" href="#">WORLD</a>
+            </div>
+          </div>
+          <a href="#"
+            ><h3 class="font-weight-bold m-0">
+              China Warns Proposed U.S. Arms Sales to Taiwan Will Threaten
+              Regional Peace
+            </h3></a
+          >
+          <p class="m-0 summary-text">
+            Taiwan is set to receive $180 million worth of advanced torpedoes in
+            a new arms deal, prompting angry protests from Beijing.
+          </p>
+        </article>
+
+        <article>
+          <div class="news-picture position-relative">
+            <a href="#"
+              ><img
+                class="w-100"
+                src="./assets/images/flag-half-staff.jpg"
+                alt="Job loss article"
+            /></a>
+            <div class="absolute-img d-inline-block position-absolute">
+              <a class="font-weight-bold absolute-text" href="#">U.S.</a>
+            </div>
+          </div>
+          <a href="#"
+            ><h3 class="font-weight-bold m-0">
+              Pelosi Asks Trump to Order Flags Flown at Half-Staff When U.S.
+              Reaches 100,000 Coronavirus Deaths
+            </h3></a
+          >
+          <p class="m-0 summary-text">
+            "It would serve as a national expression of grief so needed by
+            everyone in our country," House Speaker Nancy Pelosi and Senate
+            Minority Leader Chuck Schumer said in a letter to President Donald
+            Trump.
+          </p>
+        </article>
 
 
-    <section class="magazine">
+      </section>
 
-        <div class="trump-xi-war">
 
+
+      <section class="debate bg-white">
+
+        <a href="#"><h6 class="font-weight-bold debate-title m-0">DEBATE</h6></a>
+
+        <div class="debate-item1 pb-1 d-flex align-items-center">
+            <a href="#">
+                <img class="opinion-picture"
+                    src="./assets/images/dinesh-dsouza.png"
+                    alt="author picture"
+                />
+            </a>
+            <div class="text-opinion ml-1">
+                <a href="#"><h5 class="font-weight-bold text-black">Capitalism Creates Social Justice</h5></a>
+                <p class="opinion-by-author m-0">BY <span class="text-black font-weight-bold">DINESH D'SOUZA</span></p>
+            </div>
         </div>
 
-        <article class="magazine-item"></article>
-        <article class="magazine-item"></article>
-        <article class="magazine-item"></article>
-        <article class="magazine-item"></article>
-        <article class="magazine-item"></article>
-        <article class="magazine-item"></article>
-        <article class="magazine-item"></article>
 
-    </section>  
-    
+        <div class="vs-deco flex position-relative">
+            <div class="vs"></div>
+            <span class="vs-sign position-absolute text-white rounded-circle d-flex align-items-center justify-content-center">VS</span>
+        </div>
+
+
+        <div class="debate-item2 d-flex justify-content-between align-items-center">
+            <div class="text-opinion ml-1">
+                <a href="#"><h5 class="font-weight-bold text-black">The Time Is Ripe for More Socialism</h5></a>
+                <p class="opinion-by-author m-0">BY <span class="text-black font-weight-bold">NATHAN ROBINSON</span></p>
+            </div>
+            <a href="#">
+                <img class="opinion-picture"
+                    src="./assets/images/nathan-robinson.png"
+                    alt="author picture"
+                />
+            </a>
+        </div>
+
+
+      </section>
+
+
+      <section class="opinion bg-white">
+        <a href="#"><h6 class="font-weight-bold debate-title m-0">OPINION</h6></a>
+
+        <div class="opinion-item pb-1 d-flex">
+        <div class="opinion-item"></div>
+        <div class="opinion-item"></div>
+        <div class="opinion-item"></div>
+        <div class="opinion-item"></div>
+        <div class="opinion-item"></div>
+      </section>
+
+      <div class="empty bg-white"></div>
+
+      <section class="more-stories">
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+        <article class="more-stories-item"></article>
+      </section>
+
+      <section class="heroes-culture">
+        <div class="heroes">
+          <figure class="heroes-culture-item"></figure>
+          <figure class="heroes-culture-item"></figure>
+          <figure class="heroes-culture-item"></figure>
+        </div>
+        <div class="culture">
+          <figure class="heroes-culture-item"></figure>
+          <figure class="heroes-culture-item"></figure>
+          <figure class="heroes-culture-item"></figure>
+        </div>
+      </section>
+
+      <div class="free-sign container center-block"></div>
+    </main>
+
+    <section class="magazine">
+      <div class="trump-xi-war"></div>
+
+      <article class="magazine-item"></article>
+      <article class="magazine-item"></article>
+      <article class="magazine-item"></article>
+      <article class="magazine-item"></article>
+      <article class="magazine-item"></article>
+      <article class="magazine-item"></article>
+      <article class="magazine-item"></article>
+    </section>
+
     <section class="editors-pick">
-        <article class="editors-pick-item"></article>
-        <article class="editors-pick-item"></article>
-        <article class="editors-pick-item"></article>
-        <article class="editors-pick-item"></article>
-        <article class="editors-pick-item"></article>
-        <article class="editors-pick-item"></article>
-        <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
+      <article class="editors-pick-item"></article>
     </section>
 
     <section class="topics">
-        <article class="topics-item">
-            <figure class="main-figure"></figure>
-            <figure class="main-figure"></figure>
-            <div class="secondary-articles">
-            </div>
-        </article>
-        <article class="topics-item">
-            <figure class="main-figure"></figure>
-            <figure class="main-figure"></figure>
-            <div class="secondary-articles">
-            </div>
-        </article>
-        <article class="topics-item">
-            <figure class="main-figure"></figure>
-            <figure class="main-figure"></figure>
-            <div class="secondary-articles">
-            </div>
-        </article>
-        <article class="topics-item">
-            <figure class="main-figure"></figure>
-            <figure class="main-figure"></figure>
-            <div class="secondary-articles">
-            </div>
-        </article>
-        <article class="topics-item">
-            <figure class="main-figure"></figure>
-            <figure class="main-figure"></figure>
-            <div class="secondary-articles">
-            </div>
-        </article>
-        <article class="topics-item">
-            <figure class="main-figure"></figure>
-            <figure class="main-figure"></figure>
-            <div class="secondary-articles">
-            </div>
-        </article>
+      <article class="topics-item">
+        <figure class="main-figure"></figure>
+        <figure class="main-figure"></figure>
+        <div class="secondary-articles"></div>
+      </article>
+      <article class="topics-item">
+        <figure class="main-figure"></figure>
+        <figure class="main-figure"></figure>
+        <div class="secondary-articles"></div>
+      </article>
+      <article class="topics-item">
+        <figure class="main-figure"></figure>
+        <figure class="main-figure"></figure>
+        <div class="secondary-articles"></div>
+      </article>
+      <article class="topics-item">
+        <figure class="main-figure"></figure>
+        <figure class="main-figure"></figure>
+        <div class="secondary-articles"></div>
+      </article>
+      <article class="topics-item">
+        <figure class="main-figure"></figure>
+        <figure class="main-figure"></figure>
+        <div class="secondary-articles"></div>
+      </article>
+      <article class="topics-item">
+        <figure class="main-figure"></figure>
+        <figure class="main-figure"></figure>
+        <div class="secondary-articles"></div>
+      </article>
     </section>
 
     <div class="subscribe"></div>
     <div class="newsletter"></div>
 
     <footer>
-        <div class="footer-icons"></div>
-        <div class="footer-links"></div>
+      <div class="footer-icons"></div>
+      <div class="footer-links"></div>
     </footer>
-    
-
-   
-
-    
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

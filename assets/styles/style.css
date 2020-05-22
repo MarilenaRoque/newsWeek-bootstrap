@@ -2,131 +2,260 @@
   --red-bg: #f72210;
   --gray-bg: #f4f5f6;
 }
+.text-black {
+  color: black;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* My Helpers Classes */
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.summary-text {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.absolute-text {
+  font-size: 17px;
+  color: var(--red-bg);
+}
+
+.absolute-img {
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  left: 0;
+  bottom: 0;
+}
+
+.debate-title {
+  padding-bottom: 11px;
+}
+
+.debate-item1 {
+    border-top: 0.25rem solid #f92859;
+    padding-top: 10px;
+}
+
+.debate-item2 {
+    border-bottom: 0.25rem solid #1c87fb;
+    padding-bottom: 12px;
+}
+
+.vs-sign {
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    left: 46%;
+    top: 0px;
+}
+
+.vs {
+    border-bottom: 4px solid #d9d9d9;
+    height: 16px;
+}
+
+.vs-deco {
+    height: 32px;
+    width: 100%;
+}
+.double-border {
+    border: 1px double;
+}
 
 
+h5 {
+  font-size: 17px;
+}
+
+.opinion-picture {
+  width: 63px;
+}
+
+.opinion-by-author {
+  color: #555;
+  font-size: 14px;
+}
 
 /* First declarations to stablish a layout */
 
 /* *For mobile */
 body {
-    background-color: var(--gray-bg);
+  background-color: var(--gray-bg);
 }
-
 
 .middle {
-    height: 50px;
-    position: sticky;
-    top: 0;
-    background-color: var(--red-bg);
+  height: 50px;
+  background-color: var(--red-bg);
+  padding: 15px;
 }
 
-.top-story {
-    height: 404px;    /*  delete */
-    background: pink;
-}
-.debate{
-    height: 270px;    /*  delete */
-    background-color: yellow;
+.login-button {
+  background-color: var(--red-bg);
+  color: var(--red-bg);
 }
 
-.opinion {
-    background-color: green;
+.debate {
+  padding: 20px 15px;
+  height: 270px; /*  delete */
 }
 
-.opinion-item {
-    height: 80px;    /*  delete */
-    border: 2px solid black; /*  delete */
-}
 
 .empty {
-    height: 23px;    /*  delete */   
+  height: 23px; /*  delete */
 }
 
 .more-stories-item {
-    height: 131px;
-    background-color: blueviolet;
-    border: 2px solid black; /*  delete */
+  height: 131px;
+  background-color: blueviolet;
+  border: 2px solid black; /*  delete */
 }
 
 .heroes-culture-item {
-    height: 479px; /*  delete */ 
-    background-color: rgb(5, 49, 47);
-    border: 2px solid black; /*  delete */
-    margin: 0px;
+  height: 479px; /*  delete */
+  background-color: rgb(5, 49, 47);
+  border: 2px solid black; /*  delete */
+  margin: 0px;
 }
 
 .free-sign {
-    height: 157px; /*  delete */ 
-    width: 293px;
-    background-color: rgb(78, 14, 14);
-    border: 2px solid black; /*  delete */
+  height: 157px; /*  delete */
+  width: 293px;
+  background-color: rgb(78, 14, 14);
+  border: 2px solid black; /*  delete */
 }
 
 .trump-xi-war {
-    height: 559px; /*  delete */ 
-    background-color: rgb(107, 101, 17);
+  height: 559px; /*  delete */
+  background-color: rgb(107, 101, 17);
 }
 
 .magazine-item {
-    height: 360px; /*  delete */ 
-    background-color: rgb(15, 14, 78);
-    border: 2px solid black; /*  delete */
+  height: 360px; /*  delete */
+  background-color: rgb(15, 14, 78);
+  border: 2px solid black; /*  delete */
 }
 
 .editors-pick-item {
-    height: 432px; /*  delete */ 
-    background-color: rgb(250, 113, 1);
-    border: 2px solid black; /*  delete */
+  height: 432px; /*  delete */
+  background-color: rgb(250, 113, 1);
+  border: 2px solid black; /*  delete */
 }
 
 .main-figure {
-    height: 432px; /*  delete */ 
-    background-color: rgb(51, 250, 1);
-    border: 2px solid black; /*  delete */
+  height: 432px; /*  delete */
+  background-color: rgb(51, 250, 1);
+  border: 2px solid black; /*  delete */
 }
 
 .secondary-articles {
-    height: 338px; /*  delete */ 
-    background-color: rgb(72, 17, 122);
-    border: 2px solid black; /*  delete */
+  height: 338px; /*  delete */
+  background-color: rgb(72, 17, 122);
+  border: 2px solid black; /*  delete */
 }
 
 .subscribe {
-    height: 460px; /*  delete */ 
-    background-color: rgb(23, 211, 201);
-    border: 2px solid black; /*  delete */
+  height: 460px; /*  delete */
+  background-color: rgb(23, 211, 201);
+  border: 2px solid black; /*  delete */
 }
 
 .newsletter {
-    height: 300px; /*  delete */ 
-    background-color: rgb(255, 230, 0);
+  height: 300px; /*  delete */
+  background-color: rgb(255, 230, 0);
 }
 
 footer {
-    height: 300px; /*  delete */ 
-    background-color: rgb(11, 7, 250);
+  height: 300px; /*  delete */
 }
 
-@media (min-width: 768px) { 
+/* ......................... */
 
+.middle-nav-logo {
+  width: 133px;
+  height: 24px;
+}
+
+.subscribe-button::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  background-image: url("/assets/images/icon-arrow-right-red.svg");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.hamburguer {
+  width: 59px;
+  height: 100%;
+}
+
+.line {
+  background-color: #fb9a94;
+  width: 30px;
+  height: 4px;
+}
+
+.subscribe-button {
+  color: var(--red-bg);
+  padding: 0px 8px 0px 10px;
+}
+
+h2 {
+  padding: 10px 0px;
+  font-size: 22px;
+  color: black;
+}
+
+h3 {
+  padding: 10px 0px;
+  font-size: 20px;
+  color: black;
+}
+
+h2:hover,
+h3:hover {
+  text-decoration: underline #f72210;
+}
+
+h6 {
+  color: rgba(3, 3, 3, 0.4);
+  font-size: 16px;
+}
+
+.main-divisions {
+  padding: 20px 15px;
+  margin-bottom: 19px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.opinion {
+    padding: 20px 15px;
+}
+
+.opinion-item {
+    padding-bottom: 10px;
+}
+
+@media (min-width: 768px) {
 }
 
 @media (min-width: 992px) {
-
 }
-
-
-
-
-
-
-
 
 /* *For Tablets */
 
 /* *For larger screen */
-
-
-
 
 /* ......................................... */
