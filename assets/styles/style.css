@@ -115,11 +115,7 @@ body {
   height: 23px; /*  delete */
 }
 
-.more-stories-item {
-  height: 131px;
-  background-color: blueviolet;
-  border: 2px solid black; /*  delete */
-}
+
 
 .heroes-culture-item {
   height: 479px; /*  delete */
@@ -241,9 +237,17 @@ h6 {
 }
 
 
-.opinion-item {
+.opinion-item, .more-stories-item {
     padding: 10px 0px;
     border-top: 1px solid #ddd;
+}
+
+.more-stories-item {
+  min-height: 121px;
+}
+
+.more-stories-item h5:hover {
+  text-decoration: underline #f72210;
 }
 
 .opinion-item h5:hover {
