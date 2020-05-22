@@ -240,12 +240,19 @@ h6 {
   border-bottom: 1px solid #e2e2e2;
 }
 
-.opinion {
-    padding: 20px 15px;
-}
 
 .opinion-item {
-    padding-bottom: 10px;
+    padding: 10px 0px;
+    border-top: 1px solid #ddd;
+}
+
+.opinion-item h5:hover {
+    color:var(--red-bg);
+}
+
+.more-stories-picture {
+    width: 94px;
+    height: 94px;
 }
 
 @media (min-width: 768px) {
