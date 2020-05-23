@@ -2,9 +2,20 @@
   --red-bg: #f72210;
   --gray-bg: #f4f5f6;
 }
+
+input:focus, button:focus, textarea:focus, select:focus{
+  outline: none;
+}
+
 .text-black {
   color: black;
 }
+
+.bg-red {
+  background-color: var(--red-bg);
+}
+
+
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -31,12 +42,26 @@ a:hover {
   color: var(--red-bg);
 }
 
+.absolute-heroes-text {
+  font-size: 13px;
+  color: rgba(3, 3, 3, 0.5);
+}
+
 .absolute-img {
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
   left: 0;
   bottom: 0;
 }
+
+.absolute-heroes-culture {
+  padding: 0px 6px;
+  left: 0;
+  bottom: 0;
+  background-color: #C2D4D7;
+}
+
+
 
 .debate-title {
   padding-bottom: 11px;
@@ -73,6 +98,11 @@ a:hover {
     border: 1px double;
 }
 
+h4 {
+  color:black;
+  font-size: 19px;
+  
+}
 
 h5 {
   font-size: 17px;
@@ -118,18 +148,38 @@ body {
 
 
 .heroes-culture-item {
-  height: 479px; /*  delete */
-  background-color: rgb(5, 49, 47);
-  border: 2px solid black; /*  delete */
+ 
   margin: 0px;
 }
 
+
 .free-sign {
-  height: 157px; /*  delete */
-  width: 293px;
-  background-color: rgb(78, 14, 14);
-  border: 2px solid black; /*  delete */
+  border: 1px solid #e2e2e2;
+  background-color: var(--gray-bg);
+  padding: 20px 20px 13px 20px;
+  max-width: 298px;
 }
+
+.logo-title {
+  margin-bottom : 15px;
+}
+
+.free-sign h4 {
+  max-width: 219px;
+}
+
+.input-email {
+  border: 1px solid #e2e2e2;
+  padding: 4px;
+  font-size: 14px;
+  font-family: "Helvetica",sans-serf;
+  color: #555;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
 
 .trump-xi-war {
   height: 559px; /*  delete */
@@ -192,6 +242,8 @@ footer {
   margin-left: 10px;
 }
 
+
+
 .hamburguer {
   width: 59px;
   height: 100%;
@@ -222,11 +274,11 @@ h3 {
 
 h2:hover,
 h3:hover {
-  text-decoration: underline #f72210;
+  text-decoration: underline var(--red-bg);
 }
 
 h6 {
-  color: rgba(3, 3, 3, 0.4);
+  color: rgba(3, 3, 3, 0.5);
   font-size: 16px;
 }
 
@@ -234,6 +286,10 @@ h6 {
   padding: 20px 15px;
   margin-bottom: 19px;
   border-bottom: 1px solid #e2e2e2;
+}
+
+.heroes-culture-item h6 {
+  padding: 15px 0px 20px;
 }
 
 
@@ -257,6 +313,30 @@ h6 {
 .more-stories-picture {
     width: 94px;
     height: 94px;
+}
+
+.logo-n1 {
+  background-color: var(--red-bg);
+  background-image: url(/assets/images/logo-n1.svg);
+  width: 28px;
+  height: 29px;
+  margin-right: 10px;
+}
+
+.free-sign-button::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  background-image: url("/assets/images/ic-white-arrow.png");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+  
+}
+
+.free-sign-button {
+  border-radius: 3px;
+  height: 32px;
 }
 
 @media (min-width: 768px) {
