@@ -11,11 +11,22 @@ input:focus, button:focus, textarea:focus, select:focus{
   color: black;
 }
 
+.text-red {
+  color: var(--red-bg)
+}
+
 .bg-red {
   background-color: var(--red-bg);
 }
 
+.magazine-text {
+  font-size: 16px;
+  line-height: 16px;
+}
 
+.magazine-text:hover {
+  text-decoration: underline var(--red-bg);
+}
 
 body {
   font-family: "Roboto Condensed", sans-serif;
@@ -25,11 +36,34 @@ a:hover {
   text-decoration: none;
 }
 
+figcaption {
+  cursor: pointer;
+  margin: 10px 0px 25px;
+}
+
+figcaption:hover {
+  text-decoration: underline var(--red-bg);
+}
+
+.topics h2:hover {
+  text-decoration: none;
+}
+
 /* My Helpers Classes */
 
 .fs-18 {
   font-size: 18px;
 }
+
+hr {
+  border-bottom: 1px solid #e2e2e2;
+  
+}
+
+.secondary-item  {
+  padding-top: 16px;
+}
+
 
 .summary-text {
   font-size: 13px;
@@ -37,19 +71,40 @@ a:hover {
   color: #333;
 }
 
-.absolute-text {
+.absolute-text, .absolute-text:hover {
   font-size: 17px;
   color: var(--red-bg);
 }
+
+
 
 .absolute-heroes-text {
   font-size: 13px;
   color: rgba(3, 3, 3, 0.5);
 }
 
+.but-white {
+  cursor: pointer;
+}
+
 .absolute-img {
   padding: 8px 15px 9px;
   background-color: rgba(255, 255, 255, 0.9);
+  left: 0;
+  bottom: 0;
+}
+
+.unmasked-man {
+  padding-top: 13px;
+}
+
+.magazine-item{
+  padding-bottom: 22px;
+}
+
+.absolute-img-red {
+  padding:  0px 4px;
+  background-color: var(--red-bg);
   left: 0;
   bottom: 0;
 }
@@ -124,11 +179,21 @@ body {
   background-color: var(--gray-bg);
 }
 
+h1 {
+  color: var(--red-bg);
+  font-size: 22px;
+}
+
+
 .middle {
   height: 50px;
   background-color: var(--red-bg);
   padding: 15px;
+  position: sticky;
+  top: 0px;
+  z-index: 20;
 }
+
 
 .login-button {
   background-color: var(--red-bg);
@@ -150,6 +215,10 @@ body {
 .heroes-culture-item {
  
   margin: 0px;
+}
+
+.title-sections {
+  width: fit-content;
 }
 
 
@@ -180,17 +249,11 @@ input:focus::placeholder {
   color: transparent;
 }
 
-
-.trump-xi-war {
-  height: 559px; /*  delete */
-  background-color: rgb(107, 101, 17);
+.topics-item:hover {
+  text-decoration: none;
+  color: #f92859;
 }
 
-.magazine-item {
-  height: 360px; /*  delete */
-  background-color: rgb(15, 14, 78);
-  border: 2px solid black; /*  delete */
-}
 
 .editors-pick-item {
   height: 432px; /*  delete */
@@ -198,11 +261,7 @@ input:focus::placeholder {
   border: 2px solid black; /*  delete */
 }
 
-.main-figure {
-  height: 432px; /*  delete */
-  background-color: rgb(51, 250, 1);
-  border: 2px solid black; /*  delete */
-}
+
 
 .secondary-articles {
   height: 338px; /*  delete */
@@ -242,11 +301,24 @@ footer {
   margin-left: 10px;
 }
 
+.magazine-category span {
+  font-size: 16px;
+  color: var(--red-bg);
+}
 
+.magazine-category {
+  padding: 10px 0px;
+}
 
 .hamburguer {
   width: 59px;
   height: 100%;
+}
+
+.but-red {
+  padding: 0px 7px;
+  background-color: var(--red-bg);
+  margin-right: 7px;
 }
 
 .line {
@@ -263,7 +335,6 @@ footer {
 h2 {
   padding: 10px 0px;
   font-size: 22px;
-  color: black;
 }
 
 h3 {
@@ -298,8 +369,13 @@ h6 {
     border-top: 1px solid #ddd;
 }
 
-.more-stories-item {
-  min-height: 121px;
+.secondary-item h5:hover {
+  color: #f92859;
+}
+
+
+.clear {
+  clear: both;
 }
 
 .more-stories-item h5:hover {
@@ -312,7 +388,6 @@ h6 {
 
 .more-stories-picture {
     width: 94px;
-    height: 94px;
 }
 
 .logo-n1 {
@@ -333,6 +408,28 @@ h6 {
   margin-left: 10px;
   
 }
+
+.see-feat-wrapper {
+  padding: 10px 10px 10px 12px;
+  background-color: #f4f5f7;
+  text-align: center;
+
+}
+
+.see-feat-wrapper:hover {
+  background-color: #dbdcdd;
+}
+.see-feat-wrapper h4::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  background-image: url("/assets/images/icon-arrow-right-black.svg");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
 
 .free-sign-button {
   border-radius: 3px;
