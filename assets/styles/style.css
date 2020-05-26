@@ -430,6 +430,7 @@ h6 {
   padding: 20px 15px;
   margin-bottom: 19px;
   border-bottom: 1px solid #e2e2e2;
+  margin-right: 0;
 }
 
 
@@ -612,6 +613,7 @@ footer li{
 
 @media (min-width: 768px) {
   .main-divisions {
+    margin: 0;
     padding-bottom: 0px;
     border: none;
   }
@@ -619,7 +621,9 @@ footer li{
   .free-sign {
     border-bottom: 1px solid #e2e2e2; 
   }
+  
 }
+
 
 @media (min-width: 992px) {
   .middle {
@@ -633,6 +637,15 @@ footer li{
     position: absolute;
     z-index: 15;
   }
+}
+
+@media (max-width: 768px) {
+  .middle-right .login-button,
+  .middle-right .subscribe-button {
+    font-size: 13px;
+  }
+
+  
 }
 
 /* *For Tablets */
