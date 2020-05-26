@@ -58,6 +58,8 @@ figcaption:hover {
   text-decoration: underline var(--red-bg);
 }
 
+
+
 .topics h2:hover {
   text-decoration: none;
 }
@@ -130,6 +132,10 @@ hr {
   left: 0;
   bottom: 0;
   background-color: #C2D4D7;
+}
+
+.top-story-2 {
+  padding: 20px 15px 10px;
 }
 
 
@@ -231,9 +237,7 @@ h1 {
 }
 
 
-.empty {
-  height: 23px; /*  delete */
-}
+
 
 
 
@@ -428,6 +432,8 @@ h6 {
   border-bottom: 1px solid #e2e2e2;
 }
 
+
+
 .heroes-culture-item h6 {
   padding: 15px 0px 20px;
 }
@@ -605,6 +611,14 @@ footer li{
 
 
 @media (min-width: 768px) {
+  .main-divisions {
+    padding-bottom: 0px;
+    border: none;
+  }
+
+  .free-sign {
+    border-bottom: 1px solid #e2e2e2; 
+  }
 }
 
 @media (min-width: 992px) {
