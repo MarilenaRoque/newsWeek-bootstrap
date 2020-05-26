@@ -283,9 +283,7 @@ input:focus::placeholder {
   color: #f92859;
 }
 
-footer {
-  height: 300px; /*  delete */
-}
+
 
 /* ......................... */
 
@@ -555,6 +553,18 @@ h6 {
 .newsletter-display {
   border: 1px solid #e2e2e2;
   padding: 15px 22px 20px;
+}
+
+.news-img {
+  background-image: url(/assets/images/starting5-homepage.png);
+  background-position: center center;
+  width: 191px;
+  height: 254px;
+}
+
+footer p {
+  height: fit-content;
+  margin-top: auto;
 }
 
 .weather {
