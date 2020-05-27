@@ -117,7 +117,8 @@ hr {
 }
 
 .magazine-item{
-  padding-bottom: 22px;
+  padding-bottom: 0px 0px 22px;
+  padding-right: 0px;
 }
 
 .absolute-img-red {
@@ -341,12 +342,13 @@ input:focus::placeholder {
 
 .input-nav{
   width: 60px;
+  height: 30px;
 }
 
 .input-nav:focus {
   position: absolute;
   left: 20px;
-  width: 90%;
+  width: 92%;
   z-index: 20;
 }
 
@@ -362,8 +364,8 @@ input:focus::placeholder {
 }
 
 .subscribe-button::after {
-  width: 8px;
-  height: 14px;
+  width: 6px;
+  height: 12px;
   content: "";
   background-image: url("/assets/images/icon-arrow-right-red.svg");
   background-size: cover;
@@ -556,11 +558,15 @@ h6 {
   padding: 15px 22px 20px;
 }
 
+.xi-he {
+  max-height: 342px;
+}
+
 .news-img {
   background-image: url(/assets/images/starting5-homepage.png);
   background-position: center center;
   background-size: cover;
-  height: 100%;
+
   width: 50%;
 }
 
@@ -633,11 +639,28 @@ footer li{
   .free-sign {
     border-bottom: 1px solid #e2e2e2; 
   }
-  
+
+  .feat-stories, .second-column {
+    
+    position: sticky;
+    bottom: 2px;
+    align-self: flex-end;
+  }
+
+  .wrapp {
+    overflow: hidden;
+  }
+
+  .img-magazine {
+    height: 200px;
+  }
+
+
 }
 
 
 @media (min-width: 992px) {
+
   .middle {
     position: fixed;
     width: 100%;
@@ -655,17 +678,21 @@ footer li{
     overflow: hidden;
   }
 
-  .wrapp {
-    overflow: hidden;
+  .deb-op {
+    position: sticky;
+    bottom: 2px;
+    align-self: flex-end;
   }
+
+  
 
   .img-magazine {
     height: 244px;
 
   }
 
-  .unmasked-man {
-    height: 253px;
+  .unmasked-img {
+    height: 283px;
   }
 }
 
@@ -673,6 +700,10 @@ footer li{
   .middle-right .login-button,
   .middle-right .subscribe-button {
     font-size: 13px;
+  }
+
+  .img-magazine {
+    width: 100%;
   }
 
   
