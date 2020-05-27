@@ -96,8 +96,6 @@ h3:hover {
   text-decoration: none;
 }
 
-/* My Helpers Classes */
-
 .fs-18 {
   font-size: 18px;
 }
@@ -249,7 +247,7 @@ h1 {
 
 .debate {
   padding: 20px 15px;
-  height: 270px; /*  delete */
+  height: 270px;
 }
 
 .heroes-culture-item {
@@ -291,10 +289,6 @@ input:focus::placeholder {
   text-decoration: none;
   color: #f92859;
 }
-
-
-
-/* ......................... */
 
 .middle-nav-logo {
   width: 133px;
@@ -669,9 +663,3 @@ footer p {
     width: 100%;
   }
 }
-
-/* *For Tablets */
-
-/* *For larger screen */
-
-/* ......................................... */
