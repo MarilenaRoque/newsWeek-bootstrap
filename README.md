@@ -24,7 +24,7 @@ Warning: The original page is dinamic, the content displayed in the copy is rela
 
 ## Live Demo
 
-[Live Demo Link](url(https://raw.githack.com/MarilenaRoque/newsWeek-bootstrap/develop/index.html))
+[Live Demo Link](https://raw.githack.com/MarilenaRoque/newsWeek-bootstrap/develop/index.html)
 
 
 ## Authors
