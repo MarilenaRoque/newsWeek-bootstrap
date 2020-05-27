@@ -515,7 +515,8 @@ h6 {
 }
 
 .magazine-covers {
-  width: 220px;
+  width: 220px ;
+  min-width: 220px !important;
   height: 247px;
 }
 
@@ -558,8 +559,9 @@ h6 {
 .news-img {
   background-image: url(/assets/images/starting5-homepage.png);
   background-position: center center;
-  width: 191px;
-  height: 254px;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
 }
 
 footer p {
@@ -646,6 +648,24 @@ footer li{
     background:var(--gray-bg);
     position: absolute;
     z-index: 15;
+  }
+
+  .newsletter-display {
+    height: 288px;
+    overflow: hidden;
+  }
+
+  .wrapp {
+    overflow: hidden;
+  }
+
+  .img-magazine {
+    height: 244px;
+
+  }
+
+  .unmasked-man {
+    height: 253px;
   }
 }
 
