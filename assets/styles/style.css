@@ -367,7 +367,7 @@ input:focus::placeholder {
   width: 6px;
   height: 12px;
   content: "";
-  background-image: url("../assets/images/icon-arrow-right-red.svg");
+  background-image: url("../images/icon-arrow-right-red.svg");
   background-size: cover;
   display: inline-block;
   margin-left: 10px;
@@ -468,7 +468,7 @@ h6 {
 
 .logo-n1 {
   background-color: var(--red-bg);
-  background-image: url(../assets/images/logo-n1.svg);
+  background-image: url(../images/logo-n1.svg);
   width: 28px;
   height: 29px;
   margin-right: 10px;
@@ -482,7 +482,7 @@ h6 {
   width: 8px;
   height: 14px;
   content: "";
-  background-image: url("../assets/images/ic-white-arrow.png");
+  background-image: url("../images/ic-white-arrow.png");
   background-size: cover;
   display: inline-block;
   margin-left: 10px;
@@ -503,7 +503,7 @@ h6 {
   width: 8px;
   height: 14px;
   content: "";
-  background-image: url("../assets/images/icon-arrow-right-black.svg");
+  background-image: url("../images/icon-arrow-right-black.svg");
   background-size: cover;
   display: inline-block;
   margin-left: 10px;
@@ -563,7 +563,7 @@ h6 {
 }
 
 .news-img {
-  background-image: url(../assets/images/starting5-homepage.png);
+  background-image: url("../images/starting5-homepage.png");
   background-position: center center;
   background-size: cover;
 
