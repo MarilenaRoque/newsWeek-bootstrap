@@ -2,13 +2,21 @@
 
 > This project requests to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
-The goal is to develop a responsive page using the popular framework Bootstrap. The page is a copy of the [NewsWeek](https://www.newsweek.com/ page, that is also Bootstrap based.
+The goal is to develop a responsive page using the popular framework Bootstrap. The page is a copy of the [NewsWeek](https://www.newsweek.com/) page, that is also Bootstrap based.
 
+Warning: The original page is dinamic, the content displayed in the copy is relative to: 21/05/2020
 
+## Mobile ScreenShot
 
-![screenshot](screencapture.png)
+![screenshot](./assets/images/mobile-preview.png)
 
+## Medium Screen ScreenShot
 
+![screenshot](./assets/images/ipad-preview.png)
+
+## Desktop ScreenShot
+
+![screenshot](./assets/images/desktop-preview.png)
 
 ## Built With
 
@@ -16,10 +24,7 @@ The goal is to develop a responsive page using the popular framework Bootstrap. 
 
 ## Live Demo
 
-[Live Demo Link]()
-
-
-
+[Live Demo Link](url(https://raw.githack.com/MarilenaRoque/newsWeek-bootstrap/develop/index.html))
 
 
 ## Authors
@@ -40,4 +45,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+
 

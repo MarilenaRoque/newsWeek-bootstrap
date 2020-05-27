@@ -3,7 +3,10 @@
   --gray-bg: #f4f5f6;
 }
 
-input:focus, button:focus, textarea:focus, select:focus{
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
   outline: none;
 }
 
@@ -24,12 +27,34 @@ input:focus, button:focus, textarea:focus, select:focus{
   line-height: 16px;
 }
 
+footer li,
+footer a {
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+  color: #666;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .magazine-text:hover {
   text-decoration: underline var(--red-bg);
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--gray-bg);
+}
+
+h2 {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  color: black;
 }
 
 .display {
@@ -41,24 +66,31 @@ a:hover {
   text-decoration: none;
 }
 
-.white-nav a:hover {
-  color:var(--red-bg);
+.time-city a {
+  font-size: 15px;
 }
+
+.white-nav a:hover {
+  color: var(--red-bg);
+}
+
 .gray {
   display: none;
 }
 
-
 figcaption {
   cursor: pointer;
-  margin: 10px 0px 25px;
+  margin: 10px 0 25px;
 }
 
 figcaption:hover {
   text-decoration: underline var(--red-bg);
 }
 
-
+h2:hover,
+h3:hover {
+  text-decoration: underline var(--red-bg);
+}
 
 .topics h2:hover {
   text-decoration: none;
@@ -70,16 +102,13 @@ figcaption:hover {
   font-size: 18px;
 }
 
-
 hr {
   border-bottom: 1px solid #e2e2e2;
-  
 }
 
-.secondary-item  {
+.secondary-item {
   padding-top: 16px;
 }
-
 
 .summary-text {
   font-size: 13px;
@@ -87,14 +116,11 @@ hr {
   color: #333;
 }
 
-.absolute-text, .absolute-text:hover {
+.absolute-text,
+.absolute-text:hover {
   font-size: 17px;
   color: var(--red-bg);
 }
-
-
-
-
 
 .absolute-heroes-text {
   font-size: 13px;
@@ -116,70 +142,68 @@ hr {
   padding-top: 13px;
 }
 
-.magazine-item{
-  padding-bottom: 0px 0px 22px;
-  padding-right: 0px;
+.magazine-item {
+  padding-bottom: 0 0 22px;
+  padding-right: 0;
 }
 
 .absolute-img-red {
-  padding:  0px 4px;
+  padding: 0 4px;
   background-color: var(--red-bg);
   left: 0;
   bottom: 0;
 }
 
 .absolute-heroes-culture {
-  padding: 0px 6px;
+  padding: 0 6px;
   left: 0;
   bottom: 0;
-  background-color: #C2D4D7;
+  background-color: #c2d4d7;
 }
 
 .top-story-2 {
   padding: 20px 15px 10px;
 }
 
-
-
 .debate-title {
   padding-bottom: 11px;
 }
 
 .debate-item1 {
-    border-top: 0.25rem solid #f92859;
-    padding-top: 10px;
+  border-top: 0.25rem solid #f92859;
+  padding-top: 10px;
 }
 
 .debate-item2 {
-    border-bottom: 0.25rem solid #1c87fb;
-    padding-bottom: 12px;
+  border-bottom: 0.25rem solid #1c87fb;
+  padding-bottom: 12px;
 }
 
 .vs-sign {
-    width: 32px;
-    height: 32px;
-    background-color: black;
-    left: 46%;
-    top: 0px;
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  left: 46%;
+  top: 0;
 }
 
 .vs {
-    border-bottom: 4px solid #d9d9d9;
-    height: 16px;
+  border-bottom: 4px solid #d9d9d9;
+  height: 16px;
 }
 
 .vs-deco {
-    height: 32px;
-    width: 100%;
+  height: 32px;
+  width: 100%;
 }
+
 .double-border {
-    border: 1px double;
+  border: 1px double;
 }
 
 h4 {
-  color:black;
+  color: black;
   font-size: 19px;
-  
 }
 
 h5 {
@@ -195,37 +219,28 @@ h5 {
   font-size: 14px;
 }
 
-/* First declarations to stablish a layout */
-
-/* *For mobile */
-body {
-  background-color: var(--gray-bg);
-}
-
 h1 {
   color: var(--red-bg);
   font-size: 22px;
 }
-
 
 .middle {
   height: 50px;
   background-color: var(--red-bg);
   padding: 15px;
   position: sticky;
-  top: 0px;
+  top: 0;
   z-index: 10;
 }
 
 .top {
-  display:none;
+  display: none;
   background-color: var(--red-bg);
   position: relative;
   z-index: 20;
   height: 95px;
   padding: 20px 10px 15px;
 }
-
 
 .login-button {
   background-color: var(--red-bg);
@@ -237,20 +252,13 @@ h1 {
   height: 270px; /*  delete */
 }
 
-
-
-
-
-
 .heroes-culture-item {
- 
-  margin: 0px;
+  margin: 0;
 }
 
 .title-sections {
   width: fit-content;
 }
-
 
 .free-sign {
   border: 1px solid #e2e2e2;
@@ -260,7 +268,7 @@ h1 {
 }
 
 .logo-title {
-  margin-bottom : 15px;
+  margin-bottom: 15px;
 }
 
 .free-sign h4 {
@@ -271,7 +279,7 @@ h1 {
   border: 1px solid #e2e2e2;
   padding: 4px;
   font-size: 14px;
-  font-family: "Helvetica",sans-serf;
+  font-family: "Helvetica", Arial, sans-serif;
   color: #555;
 }
 
@@ -316,7 +324,6 @@ input:focus::placeholder {
 .white-nav li {
   font-size: 19px;
   list-style: none;
-
 }
 
 .border {
@@ -330,7 +337,6 @@ input:focus::placeholder {
   z-index: 55;
 }
 
-
 .search-section {
   width: 146px;
 }
@@ -340,7 +346,7 @@ input:focus::placeholder {
   height: 1px;
 }
 
-.input-nav{
+.input-nav {
   width: 60px;
   height: 30px;
 }
@@ -354,8 +360,8 @@ input:focus::placeholder {
 
 .detail {
   position: absolute;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   width: 80px;
   height: 15px;
   background-color: var(--red-bg);
@@ -373,13 +379,17 @@ input:focus::placeholder {
   margin-left: 10px;
 }
 
+footer span {
+  background-color: #f4f5f6;
+}
+
 .magazine-category span {
   font-size: 16px;
   color: var(--red-bg);
 }
 
 .magazine-category {
-  padding: 10px 0px;
+  padding: 10px 0;
 }
 
 .hamburguer {
@@ -389,7 +399,7 @@ input:focus::placeholder {
 }
 
 .but-red {
-  padding: 0px 7px;
+  padding: 0 7px;
   background-color: var(--red-bg);
   margin-right: 7px;
 }
@@ -402,23 +412,7 @@ input:focus::placeholder {
 
 .subscribe-button {
   color: var(--red-bg);
-  padding: 0px 8px 0px 10px;
-}
-
-h2 {
-  padding: 10px 0px;
-  font-size: 22px;
-}
-
-h3 {
-  padding: 10px 0px;
-  font-size: 20px;
-  color: black;
-}
-
-h2:hover,
-h3:hover {
-  text-decoration: underline var(--red-bg);
+  padding: 0 8px 0 10px;
 }
 
 h6 {
@@ -433,22 +427,19 @@ h6 {
   margin-right: 0;
 }
 
-
-
 .heroes-culture-item h6 {
-  padding: 15px 0px 20px;
+  padding: 15px 0 20px;
 }
 
-
-.opinion-item, .more-stories-item {
-    padding: 10px 0px;
-    border-top: 1px solid #ddd;
+.opinion-item,
+.more-stories-item {
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
 }
 
 .secondary-item h5:hover {
   color: #f92859;
 }
-
 
 .clear {
   clear: both;
@@ -459,11 +450,11 @@ h6 {
 }
 
 .opinion-item h5:hover {
-    color:var(--red-bg);
+  color: var(--red-bg);
 }
 
 .more-stories-picture {
-    width: 94px;
+  width: 94px;
 }
 
 .logo-n1 {
@@ -474,11 +465,15 @@ h6 {
   margin-right: 10px;
 }
 
-.weather, .degree, .arrow {
+.weather,
+.degree,
+.arrow {
   display: none;
 }
 
-.free-sign-button::after, .subscribe button::after, .arrow::after  {
+.free-sign-button::after,
+.subscribe button::after,
+.arrow::after {
   width: 8px;
   height: 14px;
   content: "";
@@ -486,19 +481,18 @@ h6 {
   background-size: cover;
   display: inline-block;
   margin-left: 10px;
-  
 }
 
 .see-feat-wrapper {
   padding: 10px 10px 10px 12px;
   background-color: #f4f5f7;
   text-align: center;
-
 }
 
 .see-feat-wrapper:hover {
   background-color: #dbdcdd;
 }
+
 .see-feat-wrapper h4::after {
   width: 8px;
   height: 14px;
@@ -509,36 +503,34 @@ h6 {
   margin-left: 10px;
 }
 
-
-
 .free-sign-button {
   border-radius: 3px;
   height: 32px;
 }
 
 .magazine-covers {
-  width: 220px ;
+  width: 220px;
   min-width: 220px !important;
   height: 247px;
 }
 
 .back-magazine {
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 }
 
 .front-magazine {
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
   width: 170px;
-  
 }
+
 .subscribe-content {
   background-color: var(--gray-bg);
   padding: 21px 29px;
 }
 
- .p-text {
+.p-text {
   color: #333;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
@@ -566,13 +558,7 @@ h6 {
   background-image: url("../images/starting5-homepage.png");
   background-position: center center;
   background-size: cover;
-
   width: 50%;
-}
-
-footer p {
-  height: fit-content;
-  margin-top: auto;
 }
 
 .weather {
@@ -590,15 +576,13 @@ footer p {
   width: 236px;
 }
 
-footer p{
+footer p {
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
   color: #555;
   margin-bottom: 10px;
-}
-
-footer span {
-  background-color: #f4f5f6;
+  height: fit-content;
+  margin-top: auto;
 }
 
 .icons {
@@ -608,40 +592,26 @@ footer span {
   margin-right: 10px;
 }
 
-
-
-footer li{
-  display: inline-block;
-  padding-right: 20px;
-  color:#666;
-  font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.time-city a {
-  font-size: 15px;
-}
-
 @media (min-width: 575px) {
-  .weather, .degree {
+  .weather,
+  .degree {
     display: inline-block;
   }
 }
 
-
 @media (min-width: 768px) {
   .main-divisions {
     margin: 0;
-    padding-bottom: 0px;
+    padding-bottom: 0;
     border: none;
   }
 
   .free-sign {
-    border-bottom: 1px solid #e2e2e2; 
+    border-bottom: 1px solid #e2e2e2;
   }
 
-  .feat-stories, .second-column {
-    
+  .feat-stories,
+  .second-column {
     position: sticky;
     bottom: 2px;
     align-self: flex-end;
@@ -654,13 +624,9 @@ footer li{
   .img-magazine {
     height: 200px;
   }
-
-
 }
 
-
 @media (min-width: 992px) {
-
   .middle {
     position: fixed;
     width: 100%;
@@ -668,7 +634,7 @@ footer li{
 
   .gray {
     height: 157px;
-    background:var(--gray-bg);
+    background: var(--gray-bg);
     position: absolute;
     z-index: 15;
   }
@@ -684,11 +650,8 @@ footer li{
     align-self: flex-end;
   }
 
-  
-
   .img-magazine {
     height: 244px;
-
   }
 
   .unmasked-img {
@@ -705,8 +668,6 @@ footer li{
   .img-magazine {
     width: 100%;
   }
-
-  
 }
 
 /* *For Tablets */
