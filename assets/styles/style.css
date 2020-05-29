@@ -1,0 +1,665 @@
+:root {
+  --red-bg: #f72210;
+  --gray-bg: #f4f5f6;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-red {
+  color: var(--red-bg);
+}
+
+.bg-red {
+  background-color: var(--red-bg);
+}
+
+.magazine-text {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+footer li,
+footer a {
+  display: inline-block;
+  padding-right: 3px;
+  padding-left: 3px;
+  color: #666;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.magazine-text:hover {
+  text-decoration: underline var(--red-bg);
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: var(--gray-bg);
+}
+
+h2 {
+  padding: 10px 0;
+  font-size: 22px;
+}
+
+h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  color: black;
+}
+
+.display {
+  max-width: 1352px;
+  margin: auto;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.time-city a {
+  font-size: 15px;
+}
+
+.white-nav a:hover {
+  color: var(--red-bg);
+}
+
+.gray {
+  display: none;
+}
+
+figcaption {
+  cursor: pointer;
+  margin: 10px 0 25px;
+}
+
+figcaption:hover {
+  text-decoration: underline var(--red-bg);
+}
+
+h2:hover,
+h3:hover {
+  text-decoration: underline var(--red-bg);
+}
+
+.topics h2:hover {
+  text-decoration: none;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+hr {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.secondary-item {
+  padding-top: 16px;
+}
+
+.summary-text {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+}
+
+.absolute-text,
+.absolute-text:hover {
+  font-size: 17px;
+  color: var(--red-bg);
+}
+
+.absolute-heroes-text {
+  font-size: 13px;
+  color: rgba(3, 3, 3, 0.5);
+}
+
+.but-white {
+  cursor: pointer;
+}
+
+.absolute-img {
+  padding: 8px 15px 9px;
+  background-color: rgba(255, 255, 255, 0.9);
+  left: 0;
+  bottom: 0;
+}
+
+.unmasked-man {
+  padding-top: 13px;
+}
+
+.magazine-item {
+  padding-bottom: 0 0 22px;
+  padding-right: 0;
+}
+
+.absolute-img-red {
+  padding: 0 4px;
+  background-color: var(--red-bg);
+  left: 0;
+  bottom: 0;
+}
+
+.absolute-heroes-culture {
+  padding: 0 6px;
+  left: 0;
+  bottom: 0;
+  background-color: #c2d4d7;
+}
+
+.top-story-2 {
+  padding: 20px 15px 10px;
+}
+
+.debate-title {
+  padding-bottom: 11px;
+}
+
+.debate-item1 {
+  border-top: 0.25rem solid #f92859;
+  padding-top: 10px;
+}
+
+.debate-item2 {
+  border-bottom: 0.25rem solid #1c87fb;
+  padding-bottom: 12px;
+}
+
+.vs-sign {
+  width: 32px;
+  height: 32px;
+  background-color: black;
+  left: 46%;
+  top: 0;
+}
+
+.vs {
+  border-bottom: 4px solid #d9d9d9;
+  height: 16px;
+}
+
+.vs-deco {
+  height: 32px;
+  width: 100%;
+}
+
+.double-border {
+  border: 1px double;
+}
+
+h4 {
+  color: black;
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+.opinion-picture {
+  width: 63px;
+}
+
+.opinion-by-author {
+  color: #555;
+  font-size: 14px;
+}
+
+h1 {
+  color: var(--red-bg);
+  font-size: 22px;
+}
+
+.middle {
+  height: 50px;
+  background-color: var(--red-bg);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.top {
+  display: none;
+  background-color: var(--red-bg);
+  position: relative;
+  z-index: 20;
+  height: 95px;
+  padding: 20px 10px 15px;
+}
+
+.login-button {
+  background-color: var(--red-bg);
+  color: var(--red-bg);
+}
+
+.debate {
+  padding: 20px 15px;
+  height: 270px;
+}
+
+.heroes-culture-item {
+  margin: 0;
+}
+
+.title-sections {
+  width: fit-content;
+}
+
+.free-sign {
+  border: 1px solid #e2e2e2;
+  background-color: var(--gray-bg);
+  padding: 20px 20px 13px 20px;
+  max-width: 298px;
+}
+
+.logo-title {
+  margin-bottom: 15px;
+}
+
+.free-sign h4 {
+  max-width: 219px;
+}
+
+.input-email {
+  border: 1px solid #e2e2e2;
+  padding: 4px;
+  font-size: 14px;
+  font-family: "Helvetica", Arial, sans-serif;
+  color: #555;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+.topics-item:hover {
+  text-decoration: none;
+  color: #f92859;
+}
+
+.middle-nav-logo {
+  width: 133px;
+  height: 24px;
+}
+
+.top-nav-logo {
+  width: 395.6px;
+  height: 60.1px;
+}
+
+.top-right {
+  height: 100%;
+}
+
+.top-right-content {
+  margin-top: 32px;
+}
+
+.white-nav {
+  padding: 17px 19px 15px;
+  border-bottom: 1px solid #e2e2e2;
+  z-index: 20;
+  display: none;
+}
+
+.white-nav li {
+  font-size: 19px;
+  list-style: none;
+}
+
+.border {
+  border-right: 1px solid #e2e2e2;
+}
+
+.search {
+  display: inline-block;
+  width: 20px;
+  position: relative;
+  z-index: 55;
+}
+
+.search-section {
+  width: 146px;
+}
+
+.detail-position {
+  width: 50px;
+  height: 1px;
+}
+
+.input-nav {
+  width: 60px;
+  height: 30px;
+}
+
+.input-nav:focus {
+  position: absolute;
+  left: 20px;
+  width: 92%;
+  z-index: 20;
+}
+
+.detail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 15px;
+  background-color: var(--red-bg);
+  border-left: 14px solid white;
+  border-top: 15px solid #f72210;
+}
+
+.subscribe-button::after {
+  width: 6px;
+  height: 12px;
+  content: "";
+  background-image: url("../images/icon-arrow-right-red.svg");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+footer span {
+  background-color: #f4f5f6;
+}
+
+.magazine-category span {
+  font-size: 16px;
+  color: var(--red-bg);
+}
+
+.magazine-category {
+  padding: 10px 0;
+}
+
+.hamburguer {
+  width: 59px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.but-red {
+  padding: 0 7px;
+  background-color: var(--red-bg);
+  margin-right: 7px;
+}
+
+.line {
+  background-color: #fb9a94;
+  width: 30px;
+  height: 4px;
+}
+
+.subscribe-button {
+  color: var(--red-bg);
+  padding: 0 8px 0 10px;
+}
+
+h6 {
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 16px;
+}
+
+.main-divisions {
+  padding: 20px 15px;
+  margin-bottom: 19px;
+  border-bottom: 1px solid #e2e2e2;
+  margin-right: 0;
+}
+
+.heroes-culture-item h6 {
+  padding: 15px 0 20px;
+}
+
+.opinion-item,
+.more-stories-item {
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+.secondary-item h5:hover {
+  color: #f92859;
+}
+
+.clear {
+  clear: both;
+}
+
+.more-stories-item h5:hover {
+  text-decoration: underline #f72210;
+}
+
+.opinion-item h5:hover {
+  color: var(--red-bg);
+}
+
+.more-stories-picture {
+  width: 94px;
+}
+
+.logo-n1 {
+  background-color: var(--red-bg);
+  background-image: url(../images/logo-n1.svg);
+  width: 28px;
+  height: 29px;
+  margin-right: 10px;
+}
+
+.weather,
+.degree,
+.arrow {
+  display: none;
+}
+
+.free-sign-button::after,
+.subscribe button::after,
+.arrow::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  background-image: url("../images/ic-white-arrow.png");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.see-feat-wrapper {
+  padding: 10px 10px 10px 12px;
+  background-color: #f4f5f7;
+  text-align: center;
+}
+
+.see-feat-wrapper:hover {
+  background-color: #dbdcdd;
+}
+
+.see-feat-wrapper h4::after {
+  width: 8px;
+  height: 14px;
+  content: "";
+  background-image: url("../images/icon-arrow-right-black.svg");
+  background-size: cover;
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.free-sign-button {
+  border-radius: 3px;
+  height: 32px;
+}
+
+.magazine-covers {
+  width: 220px;
+  min-width: 220px !important;
+  height: 247px;
+}
+
+.back-magazine {
+  top: 0;
+  left: 0;
+}
+
+.front-magazine {
+  bottom: 0;
+  right: 0;
+  width: 170px;
+}
+
+.subscribe-content {
+  background-color: var(--gray-bg);
+  padding: 21px 29px;
+}
+
+.p-text {
+  color: #333;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscribe-content h3:hover {
+  text-decoration: none;
+}
+
+.subscribe button {
+  padding: 6px 10px 6px 10px;
+  border-radius: 3px;
+}
+
+.newsletter-display {
+  border: 1px solid #e2e2e2;
+  padding: 15px 22px 20px;
+}
+
+.xi-he {
+  max-height: 342px;
+}
+
+.news-img {
+  background-image: url("../images/starting5-homepage.png");
+  background-position: center center;
+  background-size: cover;
+  width: 50%;
+}
+
+.weather {
+  width: 24px;
+  height: 24px;
+  margin-left: 20px;
+  margin-right: 8px;
+}
+
+.newsletter-display h3:hover {
+  text-decoration: none;
+}
+
+.footer-logo {
+  width: 236px;
+}
+
+footer p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #555;
+  margin-bottom: 10px;
+  height: fit-content;
+  margin-top: auto;
+}
+
+.icons {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+@media (min-width: 575px) {
+  .weather,
+  .degree {
+    display: inline-block;
+  }
+}
+
+@media (min-width: 768px) {
+  .main-divisions {
+    margin: 0;
+    padding-bottom: 0;
+    border: none;
+  }
+
+  .free-sign {
+    border-bottom: 1px solid #e2e2e2;
+  }
+
+  .feat-stories,
+  .second-column {
+    position: sticky;
+    bottom: 2px;
+    align-self: flex-end;
+  }
+
+  .wrapp {
+    overflow: hidden;
+  }
+
+  .img-magazine {
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .middle {
+    position: fixed;
+    width: 100%;
+  }
+
+  .gray {
+    height: 157px;
+    background: var(--gray-bg);
+    position: absolute;
+    z-index: 15;
+  }
+
+  .newsletter-display {
+    height: 288px;
+    overflow: hidden;
+  }
+
+  .deb-op {
+    position: sticky;
+    bottom: 2px;
+    align-self: flex-end;
+  }
+
+  .img-magazine {
+    height: 244px;
+  }
+
+  .unmasked-img {
+    height: 283px;
+  }
+}
+
+@media (max-width: 768px) {
+  .middle-right .login-button,
+  .middle-right .subscribe-button {
+    font-size: 13px;
+  }
+
+  .img-magazine {
+    width: 100%;
+  }
+}
