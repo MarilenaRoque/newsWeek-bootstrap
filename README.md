@@ -1,6 +1,8 @@
 # NewsWeek Copy Page- Responsive Design and CSS Frameworks
 
-> This project requests to build a replica of the news site Newsweek.com using the Bootstrap framework.
+> This project is a fully responsive replica from the NewsWeek Page. It was developed using HTML5, CSS3 and Bootstrap Framework.
+
+This project requests to build a replica of the news site Newsweek.com using the Bootstrap framework.
 
 The goal is to develop a responsive page using the popular framework Bootstrap. The page is a copy of the [NewsWeek](https://www.newsweek.com/) page, that is also Bootstrap based.
 
